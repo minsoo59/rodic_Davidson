@@ -1,5 +1,17 @@
+//default
+@import "./config/reset";
+
+//config
+@import "./config/variable";
+@import "./config/element";
+
+//components
+
+//screens
+@import "./screens/App.scss";
+
 body {
-  margin: 0;
+  margin: 15px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
